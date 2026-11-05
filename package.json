@@ -1,0 +1,56 @@
+{
+  "name": "dsh-space-ptt",
+  "version": "0.2.0",
+  "description": "按住空格说话、松开自动发送：给 DeepSeek Harness 的语音输入加一个对讲机键（不用先点输入框）。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "voice",
+    "voice-input",
+    "ptt",
+    "push-to-talk",
+    "speech",
+    "cordis"
+  ],
+  "license": "MIT",
+  "author": "dsh-space-ptt contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyou0423/dsh-space-ptt.git"
+  },
+  "homepage": "https://github.com/wuyou0423/dsh-space-ptt#readme",
+  "bugs": {
+    "url": "https://github.com/wuyou0423/dsh-space-ptt/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0",
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
