@@ -1,0 +1,6 @@
+# dsh-space-ptt bundle patch
+# 纯浏览器侧插件：Host 半边是空壳，真正的逻辑在 lib/client.js。
+# 只做 insert，不做配置改写——热挂载不需要重启配置层。
+- insert:
+    - id: space-ptt
+      name: dsh-space-ptt
