@@ -1,16 +1,32 @@
 {
   "format": 1,
-  "title": "dsh-space-ptt",
-  "description": "按住空格说话、松开自动发送 —— 给 DSH 语音输入加的对讲机键。",
+  "title": {
+    "en": "dsh-space-ptt — hold Space to talk",
+    "zh": "dsh-space-ptt —— 按住空格说话"
+  },
+  "description": {
+    "en": "Push-to-talk for DeepSeek Harness voice input: hold Space to record, release to transcribe and auto-send. Works without clicking the composer first.",
+    "zh": "给 DeepSeek Harness 的语音输入加一个对讲机键：按住空格录音，松手自动识别并发送，不用先点输入框。"
+  },
   "plugins": [
     {
       "name": "dsh-space-ptt",
-      "title": "按住空格说话（对讲机）",
-      "description": "不用点输入框：按住空格就开始录音，松手自动识别并发送。支持 Esc 取消、失焦自动取消。",
+      "title": {
+        "en": "Hold Space to Talk (PTT)",
+        "zh": "按住空格说话（对讲机）"
+      },
+      "description": {
+        "en": "No need to focus the composer: hold Space anywhere in the window to start recording, release to transcribe and send. Esc cancels, window blur auto-cancels.",
+        "zh": "不用先点输入框：窗口里任意位置按住空格就能录音，松手自动识别并发送。按 Esc 可取消，切窗口自动取消。"
+      },
+      "icon": "../assets/icon.svg",
       "author": "wuyou0423",
       "homepage": "https://github.com/wuyou0423/dsh-space-ptt",
       "repository": {
         "url": "https://github.com/wuyou0423/dsh-space-ptt"
+      },
+      "metadata": {
+        "keywords": ["voice", "ptt", "push-to-talk", "speech", "语音", "对讲机", "空格"]
       },
       "versions": [
         {
@@ -19,7 +35,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/wuyou0423/dsh-space-ptt",
-            "commit": "bb515308ebf642f9597c11e8217f9896ffbdfddd"
+            "commit": "b9e7dbecbb5023d196e0fec4ab741221c2a8b589"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0"

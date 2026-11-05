@@ -105,6 +105,18 @@ dsh plugin --profile desktop add "link:/path/to/dsh-space-ptt"
 # 改 lib/client.js 后刷新页面
 ```
 
+## 插件市场索引
+
+本仓库自带一个 **DSH 插件市场索引**（format 1，git 源），不经过 npm 也能在「插件 → 发现」里浏览安装：
+
+```
+https://raw.githubusercontent.com/wuyou0423/dsh-space-ptt/main/market/index.json
+```
+
+在 DSH：**插件 → 发现 → 添加索引源**，粘贴上面的 URL，刷新即可看到「按住空格说话（对讲机）」。
+
+索引文件在 [`market/index.json`](market/index.json)，格式由 `@deepseek-ai/dsh-plugin-market-index` 校验。
+
 ## License
 
 MIT

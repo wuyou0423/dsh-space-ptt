@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "按住空格说话、松开自动发送：给 DeepSeek Harness 的语音输入加一个对讲机键（不用先点输入框）。",
   "type": "module",
+  "icon": "./assets/icon.svg",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
@@ -12,6 +13,7 @@
   },
   "files": [
     "lib",
+    "assets",
     "cordis.patch.yml",
     "README.md",
     "LICENSE"
