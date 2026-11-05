@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "title": "dsh-space-ptt",
+  "description": "按住空格说话、松开自动发送 —— 给 DSH 语音输入加的对讲机键。",
+  "plugins": [
+    {
+      "name": "dsh-space-ptt",
+      "title": "按住空格说话（对讲机）",
+      "description": "不用点输入框：按住空格就开始录音，松手自动识别并发送。支持 Esc 取消、失焦自动取消。",
+      "author": "wuyou0423",
+      "homepage": "https://github.com/wuyou0423/dsh-space-ptt",
+      "repository": {
+        "url": "https://github.com/wuyou0423/dsh-space-ptt"
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1762317600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/wuyou0423/dsh-space-ptt",
+            "commit": "bb515308ebf642f9597c11e8217f9896ffbdfddd"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
