@@ -31,11 +31,10 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1762317600,
+          "publishTimestamp": 1762327647,
           "source": {
-            "type": "git",
-            "url": "https://github.com/wuyou0423/dsh-space-ptt",
-            "commit": "b9e7dbecbb5023d196e0fec4ab741221c2a8b589"
+            "type": "npm",
+            "registry": "https://registry.npmjs.org"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0"
