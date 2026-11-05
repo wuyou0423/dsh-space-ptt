@@ -18,7 +18,16 @@
 
 ## 安装
 
-### 从 npm（推荐，发布后可用）
+### 直接从 GitHub 安装（不需要 npm）
+
+```bash
+dsh plugin --profile desktop add "github:wuyou0423/dsh-space-ptt"
+
+# 或者指定分支
+dsh plugin --profile desktop add "github:wuyou0423/dsh-space-ptt#main"
+```
+
+### 从 npm（发布到 npm 后可用，插件市场靠这个收录）
 
 ```bash
 dsh plugin --profile <你的 profile> add dsh-space-ptt
